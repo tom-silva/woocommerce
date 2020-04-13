@@ -49,6 +49,6 @@
 		<listener class="SpeedTrapListener" file="tests/includes/listener-loader.php" />
 	</listeners>
 	<extensions>
-		<extension class="CodeHackerTestHook" file="tests/includes/code-hacking/code-hacker-test-hook.php" />
+		<extension class="\Automattic\WooCommerce\Testing\CodeHacking\CodeHackerTestHook" />
 	</extensions>
 </phpunit>
